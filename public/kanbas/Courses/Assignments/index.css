@@ -1,0 +1,19 @@
+.wd-assignments li.wd-active {
+    border-left: 2px solid black;
+}
+
+.wd-assignments li.wd-active a {
+    color: black;
+}
+
+.wd-assignments-left {
+    float: left
+}
+
+.wd-assignments-right {
+    float: right
+}
+
+.wd-assignments-done {
+    clear: both;
+ }
