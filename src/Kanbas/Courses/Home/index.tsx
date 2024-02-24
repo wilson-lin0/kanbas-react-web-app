@@ -3,9 +3,9 @@ import ModuleList from "../Modules/List";
 function Home() {
   return (
     <div>
-      <h2>Home</h2>
+      <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'flex-start', zIndex: 999 }}>
+      </div>
       <ModuleList />
-      <h2>Status</h2>
     </div>
   );
 }

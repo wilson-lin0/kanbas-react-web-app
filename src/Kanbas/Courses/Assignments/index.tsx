@@ -8,6 +8,9 @@ function Assignments() {
     (assignment) => assignment.course === courseId);
   return (
     <>
+      <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'flex-start', zIndex: 999 }}>
+        <h1>Assignments</h1>
+      </div>
       <input className="wd-assignments-left" placeholder="Search For Assignments" />
       <button className="wd-assignments-right">Group</button>
       <button className="wd-assignments-right">Assignment</button>

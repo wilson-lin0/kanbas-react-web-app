@@ -11,10 +11,12 @@ function Courses() {
   const course = courses.find((course) => course._id === courseId);
   return (
     <div>
-      <h1><HiMiniBars3 /> Course {course?.name}</h1>
       <div className="d-flex">
         <CourseNavigation />
         <div style={{ flexGrow: 1 }}>
+          <h1>
+            <HiMiniBars3 /> {course?.name} &gt;
+          </h1>
           <Routes>
             <Route path="/" element={<Navigate to="Home" />} />
             <Route path="Home" element={<Home />} />
