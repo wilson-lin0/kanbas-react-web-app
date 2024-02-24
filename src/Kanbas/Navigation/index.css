@@ -1,0 +1,42 @@
+.kanbas-navigation-container {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    /* Column background color */
+    height: 100vh;
+    /* Set the column height to 100% of the viewport height */
+}
+
+.kanbas-navigation-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.kanbas-navigation-item:hover {
+    background-color: white;
+}
+
+.kanbas-navigation-item.wd-active {
+    background-color: white;
+}
+
+.kanbas-navigation-label {
+    margin-left: 10px;
+    color: white;
+    /* Default word color */
+}
+
+.kanbas-navigation-icon svg {
+    fill: red;
+    /* Icon color */
+}
+
+.kanbas-navigation-item:hover .kanbas-navigation-label,
+.kanbas-navigation-item.wd-active .kanbas-navigation-label {
+    color: red;
+    /* Highlighted word color */
+}
