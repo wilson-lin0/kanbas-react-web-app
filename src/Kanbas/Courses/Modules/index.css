@@ -30,3 +30,33 @@
 .wd-modules > li {
   margin-bottom: 20px;
 }
+
+.list-group-item {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+.list-group-item button {
+  margin-right: 5px;
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.list-group-item input,
+.list-group-item textarea {
+  margin-top: 5px;
+  padding: 5px;
+  width: calc(100% - 20px); /* Adjust according to your needs */
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.list-group-item input:focus,
+.list-group-item textarea:focus {
+  outline: none;
+  border-color: #007bff;
+}
